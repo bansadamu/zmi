@@ -223,6 +223,9 @@ li {
 .sec3 > div > img:nth-last-child(1) {
   margin-right: 0;
 }
+.sec3 ul > li > a > p {
+  color: white;
+}
 ._as-list {
   position: fixed;
   right: 50px;
