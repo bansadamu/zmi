@@ -217,11 +217,8 @@ li {
 .sec3 > div > img {
   width: 293px;
   height: 164px;
-  margin: 0 7px;
+  margin-left: 10px;
   float: right;
-}
-.sec3 > div > img:nth-last-child(1) {
-  margin-right: 0;
 }
 .sec3 ul > li > a > p {
   color: white;
@@ -255,4 +252,43 @@ li {
 }
 ._as-list > li > a > img:nth-child(1) {
   display: none;
+}
+/* 小米闪购 */
+.flash-buy {
+  background-color: #F5F5F5;
+}
+.flash-buy .row > div {
+  height: 340px;
+  background-color: white;
+}
+.flash-buy ._timeout {
+  padding-top: 65px;
+}
+.flash-buy ._timeout > div:nth-child(1) {
+  font-size: 21px;
+  color: #ef3a3b;
+}
+.flash-buy ._timeout > p:nth-of-type(1) {
+  font-size: 55px;
+  color: orange;
+}
+.flash-buy ._timeout > p:nth-of-type(2) {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.flash-buy ._timeout > div:nth-of-type(2) > span {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: #605751;
+  color: #fff;
+  font-size: 24px;
+  line-height: 46px;
+}
+.flash-buy ._timeout > div:nth-of-type(2) > i {
+  width: 15px;
+  height: 46px;
+  line-height: 46px;
+  color: #605751;
+  font-size: 28px;
 }
